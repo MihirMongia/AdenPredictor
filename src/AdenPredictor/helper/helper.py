@@ -346,7 +346,7 @@ def train_predict(train_data, train_label, test_data, clf_list, k):
     
     return tot_test_pred_proba.argsort()[:, -k:]
 
-def get_pred_from_hmmpfam_output(test_hmmpfam_file_name, k, train_hmmpfam_file_name = '/projects/mohimanilab/romel/AdenPredictor/AdenPred001/data/Adomain_Substrate.fa.hmmpfam2', sig=False, outfile=None, log_train=True, log_test=True):
+def get_pred_from_hmmpfam_output(test_hmmpfam_file_name, k, train_hmmpfam_file_name = '../AdenPredictor/data/Adomain_Substrate.fa.hmmpfam2', sig=False, outfile=None, log_train=True, log_test=True):
     aa_alias_dict_lower, inv_aa_alias_dict_lower = get_aa_alias_dicts()
 
     if log_train:
