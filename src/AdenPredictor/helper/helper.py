@@ -417,7 +417,7 @@ def print_error_help():
 
 def main(argv):
     test_hmmpfam_file_name = None
-    train_hmmpfam_file_name = '/projects/mohimanilab/tools/AdenPredictor/data/Adomain_Substrate.fa.hmmpfam2'
+    train_hmmpfam_file_name = '../AdenPredictor/data/Adomain_Substrate.fa.hmmpfam2'
     k = 1
     s = 0
     outfile = None
